@@ -559,7 +559,7 @@ hr {
 .boxit {
 
     padding: 20px;
-    background-color: #232323;
+    background-color: #e6e6fa;
     border-radius: 5px;
 }
 
@@ -768,6 +768,7 @@ hr {
 
 .sn-right,
 .mn-right {
+    background: #9BBBDF;
     float: right;
     clear: right;
     font-family: 'IBM Plex Sans', Inter, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
@@ -783,6 +784,7 @@ hr {
 
 .sn-left,
 .mn-left {
+    background: #9BBBDF;
     float: left;
     clear: left;
     font-family: 'IBM Plex Sans', Inter, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
