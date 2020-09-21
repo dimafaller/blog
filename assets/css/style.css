@@ -768,7 +768,7 @@ hr {
 
 .sn-right,
 .mn-right {
-    background: #9BBBDF;
+    background: #e6e6fa;
     float: right;
     clear: right;
     font-family: 'IBM Plex Sans', Inter, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
@@ -786,7 +786,7 @@ hr {
 
 .sn-left,
 .mn-left {
-    background: #9BBBDF;
+    background: #e6e6fa;
     float: left;
     clear: left;
     font-family: 'IBM Plex Sans', Inter, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
