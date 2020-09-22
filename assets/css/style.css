@@ -762,6 +762,11 @@ hr {
     text-decoration: none;
 }
 
+.content>p:first-child::first-letter {
+    text-indent: 0 !important;
+    line-height: 0.9;
+    font-size: 180%
+
 .content a:hover {
     text-decoration: underline;
 }
