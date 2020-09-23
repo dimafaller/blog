@@ -1,12 +1,12 @@
 title: Записки старого ворчнуа
 name: Dima Faller
 user_description: Salesman with the highes KPI on earth
-notes_url: "https://dimafaller.ru/notes"
+notes_url: "Короткие записи"
 profile_pic: /assets/img/profile.png
 favicon: /assets/img/favicon.png
 copyright_name: Dima Faller
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "hhttps://dimafaller.ru" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dimafaller.ru" # the base hostname & protocol for your site, e.g. http://example.com
 encoding: utf-8
 
 # Build settings
