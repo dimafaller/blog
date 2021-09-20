@@ -3,8 +3,8 @@
   'index' => 61,
 
   'display_name' => array (
-    'en' => 'Umlaut',
-    'ru' => 'Умлаут',
+    'en' => 'Um',
+    'ru' => 'Ум',
   ),
 
   'colors' => array (
