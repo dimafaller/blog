@@ -1576,6 +1576,14 @@ a.admin-menu-comments-count.hover {
     font-size: 10px;
     line-height: 16px;
 }
+
+.remark {
+	opacity: 0.75; 
+	font-size: 75%;
+	line-height: 19px;
+	hyphens: auto;
+}
+
 .e2-text {
     overflow-wrap: break-word;
 }
