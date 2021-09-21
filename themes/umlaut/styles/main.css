@@ -3898,3 +3898,34 @@ mono {
 .e2-blog-description {
     line-height: 24px;
 }
+
+.header-box { /* Подложка, на которой лежат пункты меню */
+    margin-bottom: 14px; /* Отступ до фотографии */
+    background-color: #EBEBEB;
+}
+
+.menu { 
+    margin-left: 4.6%; /* Отступы самого меню. Замените % на свои */
+    margin-right: 4.6%;
+    padding: 6px 0;
+}
+
+.menu li { 
+      list-style: none; 
+      display: inline;
+      font-size: 14px; /* Настройте размер шрифта */
+      margin-right: 4px; /* Отступ между пунктами */
+}
+
+.menu li:last-child { 
+      margin-right: 0; /* Чтобы у последнего пункта не было отступа */
+}
+
+.header-box a {
+    padding: 9px 4px; /* Увеличиваем область нажатия пункта */
+    border-bottom: none; /* Убираем подчёркивание */
+}
+
+.flag {
+    padding-top: 0; /* Убираем отступ от верха экрана */
+}
