@@ -1,13 +1,13 @@
 @font-face { 
   font-family: 'Formular';
-  src: url("/fonts/IBMPlexMono-Regular.ttf") format("truetype"),
+  src: url("blog/fonts/IBMPlexMono-Regular.ttf") format("truetype"),
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face { 
   font-family: 'Formular';
-  src: url("/fonts/IBMPlexMono-Bold.ttf") format("truetype"),
+  src: url("blog/fonts/IBMPlexMono-Bold.ttf") format("truetype"),
   font-style: normal;
   font-weight: bold;
 }
@@ -90,7 +90,7 @@
 --noteTextLineHeight: 148%;
 --smallFontSize: 13px;
 
- --mainFontFamily: 'IBM', -apple-system, sans-serif; 
+ --mainFontFamily: 'IBM Plex Mono', -apple-system, sans-serif; 
  /*--noteMainFontFamily: 'Formular', sans-serif; */
 /* --smallFontFamily */
 

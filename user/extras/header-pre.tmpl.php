@@ -1,17 +1,2 @@
-<div class='header-box'>
- <nav class="menu">
-  <ul>
-   <li><a href="/">Главная</a></li>
-   <li><a href="/all/">Все заметки</a></li>
-  </ul>
- </nav>
-</div>
 
-<script>
-const href = document.location.href
-document.querySelectorAll('.header-box a').forEach(element => {
-        if (element.href === href) {
-            element.style.color = 'gray'
-        }
-    })
-</script>
+<div style="color: rgb(187, 187, 187); background-color: rgb(40, 44, 52); font-family: Consolas, &quot;Courier New&quot;, monospace; line-height: 19px; white-space: pre;"><span style="color: #abb2bf;">src:</span>&nbsp;<span style="color: #98c379;">url</span>(<span style="color: #e5c07b;">"/fonts/IBMPlexMono-Bold.ttf"</span>)&nbsp;<span style="color: #98c379;">format</span>(<span style="color: #e5c07b;">"truetype"</span>)<span style="color: #abb2bf;">,</span></div>
