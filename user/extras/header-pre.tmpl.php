@@ -3,8 +3,6 @@
   <ul>
    <li><a href="/">Главная</a></li>
    <li><a href="/all/">Все заметки</a></li>
-   <li><a href="/tags/projects/">Проекты</a></li>
-   <li><a href="/tags/advices/">Советы</a></li>
   </ul>
  </nav>
 </div>
