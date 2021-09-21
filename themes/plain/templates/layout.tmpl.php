@@ -91,7 +91,7 @@
 <?php _T_DEFER ('stat') ?>
 </div>
 
-<?php _T ('login-element'); ?>
+<!-- <?php _T ('login-element'); ?> -->
 
 <?php _X ('footer-post') ?>
 </div>
