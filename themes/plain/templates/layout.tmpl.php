@@ -9,18 +9,7 @@
 
   <div class="header-content">
 
-    <div class="header-description">
 
-      <div class="title">
-
-        <div class="title-inner">
-
-        <?php if ($content['class'] == 'frontpage') { ?>
-          <div id="e2-blog-description"><?= $content['blog']['subtitle'] ?></div>
-        <?php } ?>
-
-      </div>
-    </div>
 
     <div class="spotlight">
       <?php #_T_DEFER ('stat') ?>
