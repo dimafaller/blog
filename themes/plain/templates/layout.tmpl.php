@@ -15,20 +15,6 @@
 
         <div class="title-inner">
 
-          <div class="logo-marginal">
-            <?php _T ('user-picture') ?>
-          </div>
-
-          <div class="logo">
-            <?php _T ('user-picture') ?>
-          </div>
-
-          <h1>
-            <?= _A ('<a href="' . $content['blog']['href'] . '"><span id="e2-blog-title">' . $content['blog']['title'] . '</span></a>') ?>
-          </h1>
-
-        </div>
-
         <?php if ($content['class'] == 'frontpage') { ?>
           <div id="e2-blog-description"><?= $content['blog']['subtitle'] ?></div>
         <?php } ?>

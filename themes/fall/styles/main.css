@@ -1,15 +1,13 @@
 @font-face { 
   font-family: 'Formular';
-  src: url("/themes/acute/fonts/formular-regular.woff2") format("woff2"),
-       url("/themes/acute/fonts/formular-regular.woff") format("woff");
+  src: url("/fonts/IBMPlexMono-Regular.ttf") format("truetype"),
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face { 
   font-family: 'Formular';
-  src: url("/themes/acute/fonts/formular-bold.woff2") format("woff2"),
-       url("/themes/acute/fonts/formular-bold.woff") format("woff");
+  src: url("/fonts/IBMPlexMono-Bold.ttf") format("truetype"),
   font-style: normal;
   font-weight: bold;
 }
@@ -92,7 +90,7 @@
 --noteTextLineHeight: 148%;
 --smallFontSize: 13px;
 
- --mainFontFamily: 'Formular', -apple-system, sans-serif; 
+ --mainFontFamily: 'IBM', -apple-system, sans-serif; 
  /*--noteMainFontFamily: 'Formular', sans-serif; */
 /* --smallFontFamily */
 
