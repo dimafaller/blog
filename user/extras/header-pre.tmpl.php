@@ -5,30 +5,21 @@
 <div class="flag">
 
 <div class="header-box">
-  <div class="header-photo-link">
+  <!-- <div class="header-photo-link">
     <a href="/" style="color: black;"><img class="header-photo" src="https://sugrarin.ru/user/userpic@2x.jpg?1619350841" alt="Фото автора"></a>
-  </div>
+  </div> -->
   <div>
-    <h1 class="author-name">Тимур Суграрин</h1>
+    <h1 class="author-name">Турбодед</h1>
     <nav class="menu">
       <ul class="menu-links">
         <li>
-          <a href="https://sugrarin.ru/" style="color: black;">Лента</a>
+          <a href="https://turboded.ru/" style="color: black;">Лента</a>
         </li>
         <li>
-          <a href="https://sugrarin.ru/all/">Все&nbsp;заметки</a>
+          <a href="https://turboded.ru/blog/all/">Все&nbsp;заметки</a>
         </li>
         <li>
-          <a href="https://sugrarin.ru/tags/projects/">Проекты</a>
-        </li>
-        <li>
-          <a href="https://sugrarin.ru/all/lists/">Подборки</a>
-        </li>
-        <li>
-          <a href="https://sugrarin.ru/tags/advices/">Советы</a>
-        </li>
-        <li>
-          <a href="https://sugrarin.ru/tags/links/">Ссылки</a>
+          <a href="https://turboded.ru/tags/урбанистика/">Урбанистика</a>
         </li>
       </ul>
     </nav>
