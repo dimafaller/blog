@@ -74,6 +74,9 @@
 --noteTextFontSize: 17px;
 --noteTextLineHeight: 148%;
 --smallFontSize: 13px;
+--mainFontFamily: isans, "Arial", "Helvetica Neue", "Arial", sans-serif;
+--noteMainFontFamily: iserif, "Helvetica Neue", "Arial", sans-serif;
+--smallFontFamily: inherit;
 }
 
 @font-face {
@@ -138,7 +141,7 @@ list-style: none;
 .menu {
 font-size: 25px; 
 margin: 0;
-font-family: isans-b;
+font-family: isansb;
 }
 
 .menu-links {
