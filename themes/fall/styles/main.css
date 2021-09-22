@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=IBM+Plex+Serif:wght@100;400&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=IBM+Plex+Serif:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;400&display=swap');
 :root {
   
 --backgroundColor:             #ffffff;
@@ -78,7 +78,7 @@
 --noteTextLineHeight: 148%;
 --smallFontSize: 13px;
 
- --mainFontFamily: 'IBM Plex Sans', -apple-system, sans-serif; 
+ --mainFontFamily: 'IBM Plex Serif', -apple-system, sans-serif; 
  /*--noteMainFontFamily: 'Formular', sans-serif; */
 /* --smallFontFamily */
 
@@ -226,6 +226,7 @@ padding: 2px 0 3px 0;
   font-style: normal;
   font-weight: bold;
   max-width: 760px;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .e2-text h2 {
