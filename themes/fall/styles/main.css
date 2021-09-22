@@ -56,12 +56,6 @@
 --marginLeftCompact: 3%;
 --marginRightCompact: 3%;
 
---displayLogoMarginal: none;
---displayLogo: block;
---displayLogoCompact: block;
-
-/* --columnSpacing */
-
 --logoTop: -8px;
 --blogTitleFontSize: 16px;
 --blogTitleLineHeight: 148%;
@@ -69,8 +63,8 @@
 --pageHeadingLineHeight: 108%;
 --noteTitleFontSize: 45px;
 --noteTitleLineHeight: 116%;
-/*--noteTitleFavouriteFontSize: 86px;*/
-/*--noteTitleFavouriteLineHeight: 42px;*/
+--noteTitleFavouriteFontSize: 86px;
+--noteTitleFavouriteLineHeight: 42px;
 --noteTextFontSize: 22px;
 --noteTextLineHeight: 148%;
 --smallFontSize: 13px;
@@ -111,7 +105,7 @@
 }
 
 body {
-  max-width: 1180px;
+  max-width: 1280px;
 }
 
 @media (min-width: 1152px) {
