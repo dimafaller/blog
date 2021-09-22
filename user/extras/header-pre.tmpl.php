@@ -9,16 +9,16 @@
     <nav class="menu">
       <ul class="menu-links">
         <li>
-          <a href="https://turboded.ru/" style="color: black;">Турбодед</a>
+          <a href="https://turboded.ru/">Турбодед</a>
         </li>
         <li>
-          <a href="https://turboded.ru/blog" style="color: black;">Лента</a>
+          <a href="https://turboded.ru/blog">Лента</a>
         </li>
         <li>
           <a href="https://turboded.ru/blog/all/">Все&nbsp;заметки</a>
         </li>
         <li>
-          <a href="https://turboded.ru/tags/urbanistika/">Урбанистика</a>
+          <a href="https://turboded.ru/blog/tags/urbanistika/">Урбанистика</a>
         </li>
       </ul>
     </nav>
