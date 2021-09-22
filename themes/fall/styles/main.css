@@ -74,44 +74,35 @@
 --noteTextFontSize: 17px;
 --noteTextLineHeight: 148%;
 --smallFontSize: 13px;
-
- --noteFF: 'IBM Plex Serif', -apple-system, sans-serif; 
- --headingFF: 'IBM Plex Sans', -apple-system, sans-serif; 
- --codeFF: 'IBM Plex Mono', -apple-system, sans-serif; 
- /*--noteMainFontFamily: 'Formular', sans-serif; */
-/* --smallFontFamily */
-
-/* --time */
-
 }
 
 @font-face {
   font-family: iserif-i;
-  src: local("Gregor"), url("/fonts/IBMPlexSerif-Italic.ttf") format("truetype");
+  src: local("IBM Plex Serif Italic"), url("/fonts/IBMPlexSerif-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic
 }
 @font-face {
   font-family: iserif;
-  src: local("Gregor"), url("/fonts/IBMPlexSerif-Regular.ttf")
-  font-weight: 400;
-  font-style: normal
-}
-@font-face {
-  font-family: isansb;
-  src: url("/fonts/IBMPlexSans-Regular.ttf") format("truetype");
+  src: local("IBM Plex Serif"), url("/fonts/IBMPlexSerif-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal
 }
 @font-face {
   font-family: isans;
-  src: url("/fonts/IBMPlexSans-Bold.ttf") format("truetype");
+  src: local("IBM Plex Sans"), url("/fonts/IBMPlexSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal
+}
+@font-face {
+  font-family: isansb;
+  src: local("IBM Plex Sans"), url("/fonts/IBMPlexSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal
 }
 @font-face {
   font-family: imono;
-  src: url("/fonts/IBMPlexMono-Regular.ttf") format("truetype");
+  src: local("IBM Plex Mono"), url("/fonts/IBMPlexMono-Regular.ttf") format("truetype");
   font-weight: 700;
   font-style: normal
 }
@@ -127,7 +118,6 @@ body {
 }
 }
 
-
 .flag {
   padding-bottom: 32px;
   /*padding-top: 0;*/
@@ -136,7 +126,7 @@ body {
 .header-box {
 display: flex;
 margin: 0 2.8%;
-padding-bottom: 42px;
+padding-bottom: 8px;
 border-bottom: 1px solid var(--linkUnderlineColorVisited);
 max-width: 1024px;
 }
@@ -145,29 +135,10 @@ max-width: 1024px;
 list-style: none;
 }
 
-.header-photo {
-width: 42px; 
-height: 42px;
-margin-right: 9px;
-border-radius: 42px;
-}
-
-.header-photo-link a {
-  /*padding-bottom: 7px;*/
-border-bottom: none;
-}
-
-.author-name {
-font-size: 46px;
-font-weight: bold;
-margin: 0 0 -1px 0;
-font-family: isans;
-}
-
 .menu {
 font-size: 25px; 
 margin: 0;
-font-family: isans;
+font-family: isans-b;
 }
 
 .menu-links {
@@ -202,15 +173,9 @@ border-bottom: 1px solid #E0C4B9;
   margin: 0 3%;
 }
 
-.author-name {
-  font-size: 16px; 
-  margin: 0px 0 2px 0;
-  font-family: isans;
-}
-
 .menu {
   font-size: 16px;
-  font-family: isans; 
+  font-family: isansb; 
 }
 
 .menu-links {
@@ -246,6 +211,7 @@ padding: 2px 0 3px 0;
   font-style: normal;
   font-weight: bold;
   max-width: 760px;
+  font-family: isansb;
 }
 
 .e2-text h2 {
@@ -253,7 +219,7 @@ padding: 2px 0 3px 0;
   font-weight: bold;
   font-size: 22px;
   margin-bottom: 8px;
-  font-family: iserif;
+  font-family: isansb;
 }
 
 .e2-note-list {
