@@ -1,12 +1,12 @@
 @font-face { 
-  font-family: 'Formular';
+  font-family: 'IBM Plex Mono';
   src: url("blog/fonts/IBMPlexMono-Regular.ttf") format("truetype"),
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face { 
-  font-family: 'Formular';
+  font-family: 'IBM Plex Mono';
   src: url("blog/fonts/IBMPlexMono-Bold.ttf") format("truetype"),
   font-style: normal;
   font-weight: bold;
