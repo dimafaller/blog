@@ -111,7 +111,7 @@ body {
 @media (min-width: 1152px) {
   body {
   
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 }
 
