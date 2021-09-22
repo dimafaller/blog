@@ -5,21 +5,20 @@
 <div class="flag">
 
 <div class="header-box">
-  <!-- <div class="header-photo-link">
-    <a href="/" style="color: black;"><img class="header-photo" src="https://sugrarin.ru/user/userpic@2x.jpg?1619350841" alt="Фото автора"></a>
-  </div> -->
   <div>
-    <h1 class="author-name">Турбодед</h1>
     <nav class="menu">
       <ul class="menu-links">
         <li>
-          <a href="https://turboded.ru/" style="color: black;">Лента</a>
+          <a href="https://turboded.ru/" style="color: black;">Турбодед</a>
+        </li>
+        <li>
+          <a href="https://turboded.ru/blog" style="color: black;">Лента</a>
         </li>
         <li>
           <a href="https://turboded.ru/blog/all/">Все&nbsp;заметки</a>
         </li>
         <li>
-          <a href="https://turboded.ru/tags/урбанистика/">Урбанистика</a>
+          <a href="https://turboded.ru/tags/urbanistika/">Урбанистика</a>
         </li>
       </ul>
     </nav>
