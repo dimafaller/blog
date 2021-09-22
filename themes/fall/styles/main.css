@@ -86,31 +86,31 @@
 }
 
 @font-face {
-  font-family: p8serif;
+  font-family: iserif-i;
   src: local("Gregor"), url("/fonts/IBMPlexSerif-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic
 }
 @font-face {
-  font-family: p8serif;
+  font-family: iserif;
   src: local("Gregor"), url("/fonts/IBMPlexSerif-Regular.ttf")
   font-weight: 400;
   font-style: normal
 }
 @font-face {
-  font-family: p8sans;
+  font-family: isansb;
   src: url("/fonts/IBMPlexSans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal
 }
 @font-face {
-  font-family: p8sans;
+  font-family: isans;
   src: url("/fonts/IBMPlexSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal
 }
 @font-face {
-  font-family: p8sans;
+  font-family: imono;
   src: url("/fonts/IBMPlexMono-Regular.ttf") format("truetype");
   font-weight: 700;
   font-style: normal
@@ -136,7 +136,7 @@ body {
 .header-box {
 display: flex;
 margin: 0 2.8%;
-padding-bottom: 8px;
+padding-bottom: 42px;
 border-bottom: 1px solid var(--linkUnderlineColorVisited);
 max-width: 1024px;
 }
@@ -161,13 +161,13 @@ border-bottom: none;
 font-size: 46px;
 font-weight: bold;
 margin: 0 0 -1px 0;
-font-family: var(--headingFF);
+font-family: isans;
 }
 
 .menu {
 font-size: 25px; 
 margin: 0;
-font-family: var(--headingFF);
+font-family: isans;
 }
 
 .menu-links {
@@ -190,7 +190,7 @@ border-bottom: none;
 .menu a:hover {
 text-decoration: none;
 color: var(--hoverColor);
-/*border-bottom: 1px solid #E0C4B9;*/
+border-bottom: 1px solid #E0C4B9;
 }
 
 @media (max-width: 480px) {
@@ -198,19 +198,19 @@ color: var(--hoverColor);
 
 .header-box {
   display: inline-block;
-  padding-bottom: 12px;
+  padding-bottom: 42px;
   margin: 0 3%;
 }
 
 .author-name {
   font-size: 16px; 
   margin: 0px 0 2px 0;
-  font-family: var(--headingFF);
+  font-family: isans;
 }
 
 .menu {
   font-size: 16px;
-  font-family: var(--headingFF); 
+  font-family: isans; 
 }
 
 .menu-links {
@@ -253,7 +253,7 @@ padding: 2px 0 3px 0;
   font-weight: bold;
   font-size: 22px;
   margin-bottom: 8px;
-  font-family: var(--noteFF);
+  font-family: iserif;
 }
 
 .e2-note-list {
@@ -269,7 +269,7 @@ padding: 2px 0 3px 0;
 .e2-note-text p {
   margin-bottom: 16px;
   max-width: 760px;
-  font-family: var(--noteFF);
+  font-family: iserif;
 }
 
 mono {
@@ -277,7 +277,7 @@ mono {
   font-size: 17px;
   border-radius: 2px;
   background-color: #EBEBEB;
-  font-family: var(--codeFF);
+  font-family: imono;
 }
 
 .e2-text .lead-short {
@@ -287,13 +287,13 @@ mono {
 .e2-text .quote {
   background-color: #EFEFEF;
   padding: 12px;
-  font-family: var(--quoteFF);
+  font-family: imono;
 }
 
 .e2-text-code {
   padding: 0;
   margin-bottom: 26px;
-  font-family: var(--codeFF);
+  font-family: imono;
 }
 
 code {
@@ -303,7 +303,7 @@ code {
   margin-bottom: 18px;
   background-color: #ffffff;
   border: 1px solid #DFDFDF;
-  font-family: var(--codeFF);
+  font-family: imono;
 }
 
 .card {
@@ -317,7 +317,7 @@ code {
 .e2-text .foot {
   line-height: 140%;
   font-size: 14px;
-  font-family: var(--headingFF);
+  font-family: isans;
 }
 
 .button a {
