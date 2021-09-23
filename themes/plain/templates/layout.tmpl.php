@@ -11,7 +11,7 @@
 
 
 
-    <!-- <div class="spotlight">
+    <div class="spotlight">
       <?php #_T_DEFER ('stat') ?>
 
       <span class="admin-links-floating">
@@ -21,7 +21,7 @@
       <?php if ($content['class'] != 'found') { ?>
         <?php _T_FOR ('form-search') ?>
       <?php } ?> 
-    </div> -->
+    </div>
 
   </div>
 
