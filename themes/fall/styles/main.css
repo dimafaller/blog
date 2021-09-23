@@ -117,11 +117,13 @@ body {
 .e2-text .note {
   float: right;
   width: 25%;
+  margin-left: 2px;
   clear: right;
   font-size: 16px;
   font-family: isans;
   line-height: 20px;
   background-color: var(--linkColorVisited);
+  border-radius: 2px;
 }
 
 .header-box {
