@@ -124,7 +124,7 @@ body {
 display: flex;
 margin: 0 2.8%;
 padding-bottom: 8px;
-border-bottom: 1px solid var(--linkUnderlineColorVisited);
+/* border-bottom: 1px solid var(--linkUnderlineColorVisited); */
 max-width: 1024px;
 }
 
@@ -159,6 +159,10 @@ border-bottom: none;
 text-decoration: none;
 color: var(--hoverColor);
 border-bottom: 1px solid #E0C4B9;
+}
+
+.menu-spacer {
+    height: 107px;
 }
 
 @media (max-width: 480px) {
