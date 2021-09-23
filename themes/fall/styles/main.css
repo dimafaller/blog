@@ -118,9 +118,10 @@ body {
   float: right;
   width: 25%;
   clear: right;
-  font-size: 14px;
-  font-family: iserif;
+  font-size: 16px;
+  font-family: isans;
   line-height: 20px;
+  background-color: var(--linkColorVisited);
 }
 
 .header-box {
@@ -181,7 +182,7 @@ border-bottom: 1px solid #E0C4B9;
     width: 25%;
     clear: right;
     font-size: 14px;
-    font-family: iserif;
+    font-family: isans;
     line-height: 20px;
   }
 
