@@ -117,7 +117,7 @@ body {
 .e2-text .note {
   float: right;
   width: 25%;
-  margin-left: 2px;
+  padding-left: 2px;
   clear: right;
   font-size: 16px;
   font-family: isans;
@@ -177,7 +177,7 @@ border-bottom: 1px solid #E0C4B9;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 465px) {
 
   .e2-text .note {
     float: right;
