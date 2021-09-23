@@ -263,7 +263,7 @@ padding: 2px 0 3px 0;
 
 .e2-note-text p {
   margin-bottom: 16px;
-  max-width: 760px;
+  max-width: 100%;
   font-family: iserif;
 }
 
@@ -294,7 +294,7 @@ padding: 2px 0 3px 0;
 code {
   font-size: 16px;
   padding: 8px;
-  max-width: 780px;
+  max-width: 75%;
   margin-bottom: 18px;
   background-color: #ffffff;
   border: 1px solid #DFDFDF;
@@ -349,7 +349,7 @@ font-weight: normal;
 font-size: 200%;
 color: var(--boldColor);
 line-height: 118%;
-max-width: 720px;  
+max-width: 80%;  
 border: none;
 padding: 0;
 margin: 20px 0 24px;
@@ -360,7 +360,7 @@ font-weight: normal;
 font-size: 300%;
 color: var(--boldColor);
 line-height: 100%;
-max-width: 720px;  
+max-width: 80%;  
 border: none;
 padding: 0;
 margin: 20px 0 24px;
