@@ -162,7 +162,8 @@ border-bottom: 1px solid #E0C4B9;
 }
 
 .menu-spacer {
-    height: 107px;
+    height: 40px;
+    border-bottom: 2px solid var(--linkUnderlineColorVisited);
 }
 
 @media (max-width: 480px) {
