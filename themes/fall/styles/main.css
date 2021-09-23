@@ -198,7 +198,10 @@ padding: 2px 0 3px 0;
   padding-bottom: 20px;
 }
 
-
+.menu-spacer {
+  height: 10px;
+  border-bottom: 2px solid var(--linkUnderlineColorVisited);
+}
 }
 
 .spotlight {
