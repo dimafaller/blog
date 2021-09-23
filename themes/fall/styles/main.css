@@ -179,6 +179,10 @@ border-bottom: 1px solid #E0C4B9;
 
 @media (max-width: 465px) {
 
+  .e2-text .note::before {
+    content: "↓ ";
+}
+
   .e2-text .note {
     float: right;
     clear: right;
