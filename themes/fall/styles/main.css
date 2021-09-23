@@ -149,10 +149,14 @@ margin-right: 12px;
 }
 
 .menu a {
-text-decoration: none;
-color: var(--linkColor);
-padding: 2px 0 6px 0;
-border-bottom: none;
+  color: var(--linkColor);
+  border-color: var(--linkUnderlineColor);
+  transition-property: border-bottom,border-color,background,color,fill;
+  transition-duration: var(--time);
+  transition-timing-function: ease-out;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
 
 .menu a:hover {
