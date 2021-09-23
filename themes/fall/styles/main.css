@@ -51,7 +51,7 @@
 /* --subscribeButtonTextColor: #fff; */
 
 --marginTop: 18px;
---marginLeft: 5.8%;
+--marginLeft: 2.8%;
 --marginRight: 2.8%;
 --marginTopCompact: 14px;
 --marginLeftCompact: 3%;
@@ -106,7 +106,7 @@
 }
 
 body {
-  max-width: 1366px;
+  max-width: 1152px;
 }
 
 @media (min-width: 1152px) {
@@ -129,7 +129,7 @@ body {
 
 .header-box {
 display: flex;
-margin: 0 2.8%;
+margin: var(--marginLeft);
 padding-bottom: 8px;
 /* border-bottom: 1px solid var(--linkUnderlineColorVisited); */
 max-width: 1024px;
@@ -140,7 +140,7 @@ list-style: none;
 }
 
 .menu {
-font-size: 25px; 
+font-size: 22px; 
 margin: 0;
 font-family: isansb;
 }
@@ -196,7 +196,7 @@ border-bottom: 1px solid #E0C4B9;
 .header-box {
   display: inline-block;
   padding-bottom: 42px;
-  margin: 0 3%;
+  margin: var(--marginLeft);
 }
 
 .menu {
