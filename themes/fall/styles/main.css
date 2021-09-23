@@ -163,7 +163,7 @@ border-bottom: 1px solid #E0C4B9;
 }
 
 .menu-spacer {
-    height: 5%;
+    height: 15%;
     border-bottom: 2px solid var(--linkUnderlineColorVisited);
 }
 
