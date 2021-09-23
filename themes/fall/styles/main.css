@@ -109,12 +109,18 @@ body {
 }
 
 @media (min-width: 1152px) {
- 
-}
 
 .flag {
   padding-bottom: 32px;
   /*padding-top: 0;*/
+}
+.e2-text .note {
+  float: right;
+  width: 25%;
+  clear: right;
+  font-size: 14px;
+  font-family: iserif;
+  line-height: 20px;
 }
 
 .header-box {
@@ -165,10 +171,19 @@ border-bottom: 1px solid #E0C4B9;
 .menu-spacer {
     height: 25px;
     border-bottom: 2px solid var(--linkUnderlineColorVisited);
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 
+  .e2-text .note {
+    float: right;
+    width: 25%;
+    clear: right;
+    font-size: 14px;
+    font-family: iserif;
+    line-height: 20px;
+  }
 
 .header-box {
   display: inline-block;
