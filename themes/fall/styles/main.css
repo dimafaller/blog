@@ -51,7 +51,7 @@
 /* --subscribeButtonTextColor: #fff; */
 
 --marginTop: 18px;
---marginLeft: 2.8%;
+--marginLeft: 5.8%;
 --marginRight: 2.8%;
 --marginTopCompact: 14px;
 --marginLeftCompact: 3%;
@@ -66,7 +66,7 @@
 --noteTitleLineHeight: 116%;
 --noteTitleFavouriteFontSize: 86px;
 --noteTitleFavouriteLineHeight: 42px;
---noteTextFontSize: 22px;
+--noteTextFontSize: 20px;
 --noteTextLineHeight: 148%;
 --smallFontSize: 13px;
 --mainFontFamily: isans, "Arial", "Helvetica Neue", "Arial", sans-serif;
@@ -367,7 +367,7 @@ margin: 20px 0 24px;
 }
 
 .e2-note-snippet-text {
-  max-width: 620px;
+  max-width: 1024px;
 }
 
 .e2-text-video, .e2-text-picture {
