@@ -120,7 +120,7 @@ body {
   width: 25%;
   padding-left: 10px;
   clear: right;
-  font-size: 16px;
+  font-size: 20px;
   font-family: isans;
   line-height: 20px;
   background-color: var(--sideNoteBGColor);
@@ -181,9 +181,9 @@ border-bottom: 1px solid #E0C4B9;
 
   .e2-text .note {
     float: right;
-    width: 25%;
     clear: right;
-    font-size: 14px;
+    padding-left: 10px;
+    font-size: 20px;
     font-family: isans;
     line-height: 20px;
   }
