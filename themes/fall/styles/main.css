@@ -535,7 +535,7 @@ article {
 }
 
 .common{
-  max-width: 100%;
+  max-width: var(--maxWidth);
 }
 /*.e2-smart-title {*/
 /*  padding-bottom: 2px;*/
