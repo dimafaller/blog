@@ -527,7 +527,7 @@ article {
 }
 
 .common {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   max-width: var(--maxWidth);
 }
 
