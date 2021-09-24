@@ -107,7 +107,7 @@
 }
 
 body {
-  max-width: 1152px;
+  max-width: 100%;
 }
 
 @media (min-width: 1152px) {
@@ -535,7 +535,8 @@ article {
 }
 
 .common {
-  max-width: var(--maxWidth);
+  margin: 0 auto;
+  /* max-width: var(--maxWidth); */
 }
 /*.e2-smart-title {*/
 /*  padding-bottom: 2px;*/
