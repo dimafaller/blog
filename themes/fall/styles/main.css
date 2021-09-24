@@ -331,6 +331,8 @@ code {
   background-color: #f34723;
 }
 
+
+
 .e2-text .lead,
 .e2-note-favourite .e2-text .lead {
 font-family: var(--noteFF);
@@ -533,9 +535,6 @@ article {
   max-width: 820px;
 }
 
-.common{
-  max-width: 100%;
-}
 /*.e2-smart-title {*/
 /*  padding-bottom: 2px;*/
 /*}*/
