@@ -1,12 +1,9 @@
 :root {
-  
 --backgroundColor:             #ffffff;
 --backgroundTransparentColor: rgba( 255, 255, 255, .8  );
 --sheetBackgroundColor:       rgba( 240, 240, 240, .8  );
-
 --foregroundColor:             #010101;
 --thinRuleColor:              rgba( 107, 122, 118, .12 );
-
 --headingsColor:               rgb(   0,   0,   0      );
 --headingsUnderlineColor:     rgba(   0,   0,   0, .12 );
 --boldColor:                     var(--headingsColor);
@@ -23,13 +20,10 @@
 --adminUnderlineColor:        #DDE7F1;
 --engineTextColor:             var(--foregroundColor);
 --engineTextUnderlineColor:    var(--thinRuleColor);
-
 --markedTextBackground:        #EEEEEE;
 --markedImageBorderColor:      rgb( 255, 242, 128);
-
 --inputBackgroundColor: #EFEFEF;
 --inputTextColor: #010101;
-
 --imageBorderColor: #D9D9D9;
 --sideNoteBGColor: #f7f3e9;
 /* --disabledColor */
@@ -103,10 +97,6 @@
   src: url("../../../fonts/IBMPlexMono-Regular.ttf") format("truetype");
   font-weight: 700;
   font-style: normal
-}
-
-body {
-  max-width: 1152px;
 }
 
 @media (min-width: 1152px) {
