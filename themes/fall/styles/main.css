@@ -106,9 +106,9 @@
   font-style: normal
 }
 
-/* body {
+body {
   max-width: 100%;
-} */
+}
 
 @media (min-width: 1280px) {
 }
@@ -131,7 +131,7 @@
 .header-box {
 display: flex;
 margin: var(--marginLeft);
-/* padding-bottom: 8px; */
+
 /* border-bottom: 1px solid var(--linkUnderlineColorVisited); */
 max-width: 1024px;
 }
@@ -141,7 +141,7 @@ list-style: none;
 }
 
 .menu {
-font-size: 26px; 
+font-size: 22px; 
 margin: 0;
 font-family: isansb;
 }
