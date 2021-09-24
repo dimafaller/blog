@@ -110,7 +110,7 @@ body {
   max-width: 100%;
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1280px) {
 }
 .flag {
   padding-bottom: 32px;
@@ -133,7 +133,7 @@ display: flex;
 margin: var(--marginLeft);
 padding-bottom: 8px;
 /* border-bottom: 1px solid var(--linkUnderlineColorVisited); */
-max-width: 1024px;
+max-width: 100%;
 }
 
 .header-box ul {
