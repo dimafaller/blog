@@ -534,7 +534,7 @@ article {
   max-width: 820px;
 }
 
-.common{
+.common {
   max-width: var(--maxWidth);
 }
 /*.e2-smart-title {*/
