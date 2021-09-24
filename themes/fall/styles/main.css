@@ -264,7 +264,7 @@ padding: 2px 0 3px 0;
 
 .e2-note-text p {
   margin-bottom: 16px;
-  max-width: 100%;
+  max-width: 75%;
   font-family: iserif;
 }
 
@@ -283,7 +283,7 @@ padding: 2px 0 3px 0;
 .e2-text .quote {
   background-color: #EFEFEF;
   padding: 12px;
-  font-family: imono;
+  font-family: isansb;
 }
 
 .e2-text-code {
@@ -335,7 +335,7 @@ code {
 .e2-text .lead,
 .e2-note-favourite .e2-text .lead {
 font-family: var(--noteFF);
-font-size: 20px;
+font-size: 60px;
 line-height: 26px;
 }
 
@@ -348,7 +348,7 @@ font-weight: normal;
 font-size: 200%;
 color: var(--boldColor);
 line-height: 118%;
-max-width: 80%;  
+max-width: 100%;  
 border: none;
 padding: 0;
 margin: 20px 0 24px;
@@ -359,7 +359,7 @@ font-weight: normal;
 font-size: 300%;
 color: var(--boldColor);
 line-height: 100%;
-max-width: 80%;  
+max-width: 100%;  
 border: none;
 padding: 0;
 margin: 20px 0 24px;
@@ -368,11 +368,6 @@ margin: 20px 0 24px;
 .e2-note-snippet-text {
   max-width: 1024px;
 }
-
-.e2-text-video, .e2-text-picture {
-  max-width: 1024px;
-}
-
 
 /*.e2-text img {*/
 /*    border: 0.5px solid #e2e2e2;*/
@@ -538,6 +533,11 @@ article {
   margin: 0 auto;
   /* max-width: var(--maxWidth); */
 }
+
+.e2-text-video, .e2-text-picture {
+  max-width: 100%;
+}
+
 /*.e2-smart-title {*/
 /*  padding-bottom: 2px;*/
 /*}*/
