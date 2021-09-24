@@ -133,7 +133,7 @@ display: flex;
 margin: var(--marginLeft);
 padding-bottom: 8px;
 /* border-bottom: 1px solid var(--linkUnderlineColorVisited); */
-max-width: 95%;
+max-width: 1024px;
 }
 
 .header-box ul {
@@ -531,7 +531,10 @@ article {
 
 .common {
   margin: 0 auto;
-  max-width: 95%;
+  min-width: 320px;
+  max-width: 1600px;
+  margin: auto;
+}
 }
 
 .e2-text-video, .e2-text-picture {
