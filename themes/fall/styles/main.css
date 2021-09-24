@@ -1,9 +1,12 @@
 :root {
+  
 --backgroundColor:             #ffffff;
 --backgroundTransparentColor: rgba( 255, 255, 255, .8  );
 --sheetBackgroundColor:       rgba( 240, 240, 240, .8  );
+
 --foregroundColor:             #010101;
 --thinRuleColor:              rgba( 107, 122, 118, .12 );
+
 --headingsColor:               rgb(   0,   0,   0      );
 --headingsUnderlineColor:     rgba(   0,   0,   0, .12 );
 --boldColor:                     var(--headingsColor);
@@ -20,10 +23,13 @@
 --adminUnderlineColor:        #DDE7F1;
 --engineTextColor:             var(--foregroundColor);
 --engineTextUnderlineColor:    var(--thinRuleColor);
+
 --markedTextBackground:        #EEEEEE;
 --markedImageBorderColor:      rgb( 255, 242, 128);
+
 --inputBackgroundColor: #EFEFEF;
 --inputTextColor: #010101;
+
 --imageBorderColor: #D9D9D9;
 --sideNoteBGColor: #f7f3e9;
 /* --disabledColor */
@@ -50,7 +56,6 @@
 --marginTopCompact: 14px;
 --marginLeftCompact: 3%;
 --marginRightCompact: 3%;
---maxWidth: 1024px
 
 --logoTop: -8px;
 --blogTitleFontSize: 16px;
@@ -98,6 +103,10 @@
   src: url("../../../fonts/IBMPlexMono-Regular.ttf") format("truetype");
   font-weight: 700;
   font-style: normal
+}
+
+body {
+  max-width: 1152px;
 }
 
 @media (min-width: 1152px) {
@@ -177,7 +186,7 @@ border-bottom: 1px solid #E0C4B9;
   .e2-text .note {
     float: right;
     clear: right;
-    width: 75%;
+    width: 100%;
     padding-left: 10px;
     font-size: var(--smallFontSize);
     font-family: isans;
@@ -254,7 +263,7 @@ padding: 2px 0 3px 0;
 
 .e2-note-text p {
   margin-bottom: 16px;
-  max-width: 75%;
+  max-width: 100%;
   font-family: iserif;
 }
 
@@ -321,8 +330,6 @@ code {
 .button a:hover {
   background-color: #f34723;
 }
-
-
 
 .e2-text .lead,
 .e2-note-favourite .e2-text .lead {
@@ -526,11 +533,9 @@ article {
   max-width: 820px;
 }
 
-/* .common {
-  /* margin: 0 auto; */
-  /* max-width: var(--maxWidth);
-} */
-
+.common{
+  max-width: 100%;
+}
 /*.e2-smart-title {*/
 /*  padding-bottom: 2px;*/
 /*}*/
