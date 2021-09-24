@@ -50,6 +50,7 @@
 --marginTopCompact: 14px;
 --marginLeftCompact: 3%;
 --marginRightCompact: 3%;
+--maxWidth: 75%
 
 --logoTop: -8px;
 --blogTitleFontSize: 16px;
@@ -527,7 +528,7 @@ article {
 
 .common {
   margin: 0 auto;
-  /* max-width: var(--maxWidth); */
+  max-width: var(--maxWidth);
 }
 
 /*.e2-smart-title {*/
