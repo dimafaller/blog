@@ -121,10 +121,10 @@ body {
   width: 25%;
   padding-left: 10px;
   clear: right;
-  font-size: 20px;
+  font-size: 18px;
   font-family: isans;
   line-height: 20px;
-  background-color: var(--sideNoteBGColor);
+  background-color: var(--tagUnderlineColor);
   border-radius: 2px;
 }
 
@@ -133,7 +133,7 @@ display: flex;
 margin: var(--marginLeft);
 padding-bottom: 8px;
 /* border-bottom: 1px solid var(--linkUnderlineColorVisited); */
-max-width: 100%;
+max-width: 95%;
 }
 
 .header-box ul {
@@ -531,7 +531,7 @@ article {
 
 .common {
   margin: 0 auto;
-  /* max-width: var(--maxWidth); */
+  max-width: 95%;
 }
 
 .e2-text-video, .e2-text-picture {
