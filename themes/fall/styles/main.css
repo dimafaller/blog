@@ -185,7 +185,7 @@ border-bottom: 1px solid #E0C4B9;
 }
 
 .menu-spacer {
-    height: 20px;
+    height: 3em;
     border-bottom: 1px solid #b1b0b0;
     margin-left: var(--marginLeft);
     margin-left: var(--marginRight);
