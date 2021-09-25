@@ -5,6 +5,7 @@
         <li>
           <a href="https://turboded.ru/blog">Лента</a>
         </li>
+        <li>
           <a href="https://turboded.ru/blog/tags/chto-posmotret/">Посмотрел</a>
         </li>
         <li>
