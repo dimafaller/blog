@@ -1,11 +1,6 @@
 <?php _X ('common-pre') ?>
 
-<div class="common">
-
-
-
-<div class="flag">
-  <?php _X ('header-pre') ?>
+ <?php _X ('header-pre') ?>
 
   <div class="header-content">
 
