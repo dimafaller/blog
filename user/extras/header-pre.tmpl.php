@@ -1,9 +1,3 @@
-<div class="common">
-
-
-
-<div class="flag">
-
 <div class="header-box">
   <div>
     <nav class="menu">
@@ -45,5 +39,4 @@ document.querySelectorAll('.header-box a').forEach(element => {
     })
 </script>
 <div class="menu-spacer"></div>
-</div>
-</div>
+
