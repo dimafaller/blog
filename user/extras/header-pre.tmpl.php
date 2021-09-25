@@ -32,6 +32,7 @@
       <?php } ?> 
     </div>
   </div>
+  <div class="menu-spacer"></div>
 </div>
 
 <script>
@@ -42,5 +43,5 @@ document.querySelectorAll('.header-box a').forEach(element => {
         }
     })
 </script>
-<div class="menu-spacer"></div>
+
 
