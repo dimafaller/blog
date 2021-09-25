@@ -145,7 +145,7 @@ list-style: none;
 }
 
 .menu {
-font-size: 22px; 
+font-size: 25px; 
 margin: 0;
 font-family: isansb;
 }
@@ -157,7 +157,7 @@ margin: 0;
 
 .menu-links li {
   margin: 0;
-margin-right: 12px;
+margin-right: 14px;
 }
 
 .menu a {
@@ -267,7 +267,7 @@ padding: 2px 0 3px 0;
 
 
 .e2-note-text p {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
   max-width: 75%;
   font-family: iserif;
 }
