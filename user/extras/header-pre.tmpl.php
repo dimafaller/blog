@@ -1,9 +1,3 @@
-<div class="common">
-
-
-
-<div class="flag">
-
 <div class="header-box">
   <div>
     <nav class="menu">
