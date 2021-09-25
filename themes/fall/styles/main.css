@@ -51,12 +51,12 @@
 /* --subscribeButtonTextColor: #fff; */
 
 --marginTop: 18px;
---marginLeft: 2.8%;
---marginRight: 2.8%;
+--marginLeft: 2%;
+--marginRight: 2%;
 --marginTopCompact: 14px;
 --marginLeftCompact: 3%;
 --marginRightCompact: 3%;
---maxWidth: 100%;
+--maxWidth: 1280;
 
 --logoTop: -8px;
 --blogTitleFontSize: 16px;
