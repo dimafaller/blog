@@ -140,7 +140,7 @@ body {
 
 .header-box {
 display: flex;
-margin: var(--marginLeft) 0 var(--marginLeft) 0
+margin: var(--marginLeft) 0 var(--marginLeft) 0;
 padding-bottom: 8px;
 /* border-bottom: 1px solid var(--linkUnderlineColorVisited); */
 max-width: 95%;
