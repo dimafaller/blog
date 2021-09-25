@@ -140,8 +140,9 @@ body {
 
 .header-box {
 display: flex;
-margin: var(--marginLeft) 0 var(--marginLeft) 0;
-padding-bottom: 8px;
+margin-left: var(--marginLeft);
+margin-left: var(--marginRight);
+padding-bottom: 10px;
 /* border-bottom: 1px solid var(--linkUnderlineColorVisited); */
 max-width: 95%;
 }
@@ -184,8 +185,8 @@ border-bottom: 1px solid #E0C4B9;
 }
 
 .menu-spacer {
-    height: 25px;
-    border-bottom: 2px solid var(--linkUnderlineColorVisited);
+    height: 15px;
+    border-bottom: 3px solid #010101;
   }
 
 @media (max-width: 465px) {
