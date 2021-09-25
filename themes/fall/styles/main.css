@@ -132,6 +132,10 @@ body {
   border-radius: 2px;
 }
 
+.e2-text .note::before {
+  content: "← ";
+}
+
 .header-box {
 display: flex;
 margin: var(--marginLeft);
@@ -145,7 +149,7 @@ list-style: none;
 }
 
 .menu {
-font-size: 20px; 
+font-size: 24px; 
 margin: 0;
 font-family: isansb;
 }
@@ -369,6 +373,10 @@ padding: 0;
 margin: 20px 0 24px;
 }
 
+.e2-text p, .e2-text ul, .e2-text ol, .e2-text li, .e2-text blockquote, .e2-text-audio, .e2-text-calliope-formatted {
+  max-width: 80%;
+}
+
 .e2-note-snippet-text {
   max-width: 1024px;
 }
@@ -388,8 +396,8 @@ margin: 20px 0 24px;
   font-family: isans, -apple-system, sans-serif;
 }
 
-blockquote {
-  color: #793301;
+.blockquote {
+  color: #000000;
 }
 
 /*PROJECTS*/
