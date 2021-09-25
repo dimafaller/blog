@@ -56,7 +56,7 @@
 --marginTopCompact: 14px;
 --marginLeftCompact: 3%;
 --marginRightCompact: 3%;
---maxWidth: 1280;
+--maxWidth: 1280px;
 
 --logoTop: -8px;
 --blogTitleFontSize: 16px;
@@ -109,7 +109,11 @@
 body {
   max-width: 100%;
 }
-
+.common {
+  margin: auto;
+  min-width: 320px;
+  max-width: 1600px;
+}
 @media (min-width: 1280px) {
 }
 .flag {
@@ -529,12 +533,7 @@ article {
   max-width: 820px;
 }
 
-.common {
-  margin: 0 auto;
-  min-width: 320px;
-  max-width: 1600px;
-  margin: auto;
-}
+
 
 
 .e2-text-video, .e2-text-picture {
