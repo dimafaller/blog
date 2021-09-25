@@ -186,7 +186,9 @@ border-bottom: 1px solid #E0C4B9;
 
 .menu-spacer {
     height: 20px;
-    border-bottom: 1px solid #010101;
+    border-bottom: 1px solid #b1b0b0;
+    margin-left: var(--marginLeft);
+    margin-left: var(--marginRight);
   }
 
 @media (max-width: 465px) {
