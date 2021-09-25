@@ -31,7 +31,7 @@
 --inputTextColor: #010101;
 
 --imageBorderColor: #D9D9D9;
---sideNoteBGColor: #f7f3e9;
+--sideNoteBGColor: #fff5dd;
 /* --disabledColor */
 /* --activeColor */
 /* --errorColor */
@@ -124,12 +124,14 @@ body {
   float: right;
   width: 25%;
   padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   clear: right;
   font-size: 18px;
   font-family: isans;
   line-height: 20px;
-  background-color: var(--tagUnderlineColor);
-  border-radius: 2px;
+  background-color: var(--sideNoteBGColor);
+  border-radius: 4px;
 }
 
 .e2-text .note::before {
