@@ -3,16 +3,19 @@
     <nav class="menu">
       <ul class="menu-links">
         <li>
-          <a href="https://turboded.ru/">Турбодед</a>
-        </li>
-        <li>
           <a href="https://turboded.ru/blog">Лента</a>
         </li>
+          <a href="https://turboded.ru/blog/tags/chto-posmotret/">Что Посмотреть</a>
+        </li>
         <li>
-          <a href="https://turboded.ru/blog/all/">Все&nbsp;заметки</a>
+          <a href="https://turboded.ru/blog/tags/nahodki/">Нашел</a>
         </li>
         <li>
           <a href="https://turboded.ru/blog/tags/urbanistika/">Урбанистика</a>
+        </li>
+        <li>
+        <li>
+          <a href="https://turboded.ru/blog/all/">Все&nbsp;заметки</a>
         </li>
       </ul>
     </nav>
