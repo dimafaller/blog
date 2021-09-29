@@ -352,31 +352,20 @@ font-size: 60px;
 line-height: 26px;
 }
 
-.e2-text .lead-short {
-  margin-bottom: -12px;
+.e2-text .loud {
+  background-color: #f1f0cf;
+  font-family: var(--mainFontFamily);
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 40px;
+  line-height: 44px;
+  max-width: 80%;
+  padding: .4em 0 .8em;
+  border: none;
+  box-shadow: -0.4em 0 0 #f1f0cf, 0.4em 0 0 #f1f0cf;
+  margin: 20px 0 40px;
 }
 
-.e2-text .loud-medium {
-font-weight: normal;
-font-size: 200%;
-color: var(--boldColor);
-line-height: 118%;
-max-width: 100%;  
-border: none;
-padding: 0;
-margin: 20px 0 24px;
-}
-
-.e2-text .loud-large {
-font-weight: normal;
-font-size: 300%;
-color: var(--boldColor);
-line-height: 100%;
-max-width: 100%;  
-border: none;
-padding: 0;
-margin: 20px 0 24px;
-}
 
 .e2-text p, .e2-text ul, .e2-text ol, .e2-text li, .e2-text blockquote, .e2-text-audio, .e2-text-calliope-formatted {
   max-width: 80%;
@@ -386,16 +375,10 @@ margin: 20px 0 24px;
   max-width: 1024px;
 }
 
-/*.e2-text img {*/
-/*    border: 0.5px solid #e2e2e2;*/
-/*    display: inline-block;*/
-/*}*/
-
 .fotorama__stage {
   border: 0.5px solid #e2e2e2;
   
 }
-
 
 .e2-note-likes .likely__button {
   font-family: isans, -apple-system, sans-serif;
