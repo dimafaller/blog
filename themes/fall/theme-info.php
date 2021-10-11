@@ -1,14 +1,14 @@
-<?php return array (
+<?php return array(
 
   'index' => 0,
 
-  'display_name' => array (
+  'display_name' => array(
     'en' => 'Faller',
     'ru' => 'Фаллер',
     'uk' => 'Faller',
   ),
 
-  'colors' => array (
+  'colors' => array(
     'background' => '#fff',
     'headings' => '#000',
     'text' => '#6b7a76',
@@ -19,4 +19,4 @@
   'meta_viewport' => 'width=device-width, initial-scale=1',
   'supports_dark_mode' => true,
 
-); ?>
+);
