@@ -1,26 +1,26 @@
 :root {
   
 --backgroundColor:             #ffffff;
---backgroundTransparentColor: rgba( 255, 255, 255, .8  );
---sheetBackgroundColor:       rgba( 240, 240, 240, .8  );
+--backgroundTransparentColor:  rgba( 255, 255, 255, .8  );
+--sheetBackgroundColor:        rgba( 240, 240, 240, .8  );
 
 --foregroundColor:             #010101;
---thinRuleColor:              rgba( 107, 122, 118, .12 );
+--thinRuleColor:               rgba( 107, 122, 118, .12 );
 
 --headingsColor:               rgb(   0,   0,   0      );
---headingsUnderlineColor:     rgba(   0,   0,   0, .12 );
+--headingsUnderlineColor:      rgba(   0,   0,   0, .12 );
 --boldColor:                     var(--headingsColor);
 --boldUnderlineColor:            var(--headingsUnderlineColor);
 --linkColor:                   #0160A0;
---linkUnderlineColor:         #DDE7F1;
+--linkUnderlineColor:          #DDE7F1;
 --linkColorVisited:            #5C87B4;
---linkUnderlineColorVisited:  #EBF1F7;
+--linkUnderlineColorVisited:   #EBF1F7;
 --hoverColor:                  #A03000;
---hoverUnderlineColor:        #F9EBEB;
+--hoverUnderlineColor:         #F9EBEB;
 --tagColor:                    rgb(   0,   0,   0      );
---tagUnderlineColor:          rgba(   0,   0,   0, .12 );
+--tagUnderlineColor:           rgba(   0,   0,   0, .12 );
 --adminColor:                  #0160A0;
---adminUnderlineColor:        #DDE7F1;
+--adminUnderlineColor:         #DDE7F1;
 --engineTextColor:             var(--foregroundColor);
 --engineTextUnderlineColor:    var(--thinRuleColor);
 
